@@ -2,14 +2,19 @@
 export default {
   content: [
     "./components/**/*.{js,vue,ts}",
-    "./layouts/**/*.vue",
+    "./layout/**/*.vue",
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./app.vue",
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "red-button": '#F02C56',
+        "red-hover-button": '#F02C56CB'
+      }
+    },
   },
   plugins: [],
 }
