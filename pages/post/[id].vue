@@ -172,7 +172,7 @@ const addCommit = async () => {
 }
 
 useSeoMeta({
-  title: `Видео ${$generaleStore?.selectedPost?.id}`
+  title: `Видео ${$generaleStore.selectedPost?.id}`
 })
 </script>
 
